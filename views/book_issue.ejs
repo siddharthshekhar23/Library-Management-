@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Book</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Issue Book</h1>
+    <form action="/library/book/issue" method="POST">
+        <label for="bookName">Name of Book:</label>
+        <input type="text" id="bookName" name="bookName" required>
+
+        <label for="authorName">Name of Author:</label>
+        <input type="text" id="authorName" name="authorName" required>
+
+        <button type="submit">Issue Book</button>
+    </form>
+</body>
+</html>

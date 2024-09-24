@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Fine</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Pay Fine</h1>
+    <form action="/fine/pay" method="POST">
+        <input type="text" name="fineAmount" placeholder="Fine Amount" disabled>
+        <input type="checkbox" name="finePaid" required> Fine Paid
+        <button type="submit">Confirm Payment</button>
+    </form>
+    <a href="/user">Back to Dashboard</a>
+</body>
+</html>
